@@ -10,6 +10,3 @@ with open("10Mpass.txt", "r") as fw:
         for line in fw:
             line = line.strip()
             executor.submit(hash_password, line)
-            
-        
-        
